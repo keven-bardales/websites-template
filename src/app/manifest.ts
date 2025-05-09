@@ -2,13 +2,13 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Jetour Honduras',
-    short_name: 'Jetour HN',
-    description: 'Concesionario oficial de vehículos Jetour en Honduras. Descubre nuestra línea de vehículos premium con tecnología de vanguardia.',
+    name: 'Example Company',
+    short_name: 'ExampleCo',
+    description: 'This is a short description for Example Company. Replace with your own.',
     start_url: '/',
     display: 'standalone',
     background_color: '#FFFFFF',
-    theme_color: '#FF7A00',
+    theme_color: '#0000FF',
     icons: [
       {
         src: '/favicon.ico',

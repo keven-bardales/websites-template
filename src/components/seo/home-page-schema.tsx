@@ -59,11 +59,12 @@ export default function HomePageSchema() {
         closes: '00:00'
       }
     ],
-    sameAs: ['https://www.facebook.com/jetourhonduras', 'https://www.instagram.com/jetourhonduras']
+    sameAs: ['https://www.facebook.com/examplecompany', 'https://www.instagram.com/examplecompany']
   };
 
   return (
     <>
+      {/* Example JSON-LD data for template use */}
       <JsonLd data={websiteData} />
       <JsonLd data={localBusinessData} />
     </>

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.jetourhn.com';
+  const baseUrl = 'https://www.example.com';
 
   // Páginas estáticas principales
   const staticPages = [

@@ -8,11 +8,12 @@ export default function robots(): MetadataRoute.Robots {
       disallow: [
         '/api/',
         '/admin/',
-        '/_next/'
-        // Agrega cualquier otra ruta que no quieras que sea indexada
-      ]
+        '/_next/',
+        // Add any other routes you do not want indexed
+      ],
     },
-    sitemap: 'https://www.jetourhn.com/sitemap.xml',
-    host: 'https://www.jetourhn.com'
+    sitemap: 'https://www.example.com/sitemap.xml',
+    host: 'https://www.example.com',
   };
+
 }

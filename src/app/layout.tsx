@@ -24,48 +24,44 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.jetourhn.com'),
+  metadataBase: new URL('https://www.example.com'),
   title: {
-    template: '%s | Jetour Honduras',
-    default: 'Jetour Honduras | Vehículos de Lujo y Tecnología Avanzada'
+    template: '%s | Example Company',
+    default: 'Example Company | Welcome',
   },
-  description:
-    'Concesionario oficial de vehículos Jetour en Honduras. Descubre nuestra línea de vehículos premium con tecnología de vanguardia. Por Autos Aliados.',
-  keywords: ['Jetour Honduras', 'autos Jetour', 'SUV Jetour', 'autos de lujo Honduras', 'Dashing', 'T2', 'X50', 'X70 Plus', 'Autos Aliados'],
-  authors: [{ name: 'Jetour Honduras', url: 'https://www.jetourhn.com' }],
-  creator: 'Autos Aliados',
-  publisher: 'Jetour Honduras',
+  description: 'This is a short description for Example Company. Replace with your own.',
+  keywords: ['example', 'company', 'template', 'website'],
+  authors: [{ name: 'Example Company', url: 'https://www.example.com' }],
+  creator: 'Example Company',
+  publisher: 'Example Company',
   formatDetection: {
-    email: true,
-    address: true,
-    telephone: true
+    email: false,
+    address: false,
+    telephone: false,
   },
   openGraph: {
-    siteName: 'Jetour Honduras | Autos Aliados',
-    type: 'website',
-    locale: 'es_HN',
-    alternateLocale: ['es_MX', 'es_GT', 'es_SV', 'es_NI', 'es_CR', 'es_PA'],
-    url: 'https://www.jetourhn.com',
-    title: 'Jetour Honduras | Vehículos de Lujo y Tecnología Avanzada',
-    description:
-      'Concesionario oficial de vehículos Jetour en Honduras. Descubre nuestra línea de vehículos premium con tecnología de vanguardia. Por Autos Aliados.',
-    countryName: 'Honduras',
+    title: 'Example Company | Welcome',
+    description: 'This is a short description for Example Company. Replace with your own.',
+    url: 'https://www.example.com',
+    siteName: 'Example Company',
     images: [
       {
-        url: 'https://www.jetourhn.com/landing/jetour_logo_white_drive_your_future.png',
+        url: 'https://www.example.com/og-image.png',
         width: 800,
         height: 600,
-        alt: 'Jetour Honduras'
-      }
-    ]
+        alt: 'Example Company',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jetour Honduras | Vehículos de Lujo y Tecnología Avanzada',
-    description: 'Concesionario oficial de vehículos Jetour en Honduras. Descubre nuestra línea de SUVs premium con tecnología de vanguardia.',
-    images: ['/img/JetourLogo.png'],
-    site: '@jetourhn',
-    creator: '@autosaliados'
+    title: 'Example Company | Welcome',
+    description: 'This is a short description for Example Company. Replace with your own.',
+    images: ['https://www.example.com/twitter-image.png'],
+    site: '@examplecompany',
+    creator: '@examplecompany',
   },
   robots: {
     index: true,
@@ -73,10 +69,10 @@ export const metadata: Metadata = {
     'max-image-preview': 'large',
     'max-snippet': -1,
     'max-video-preview': -1,
-    googleBot: 'index, follow'
+    googleBot: 'index, follow',
   },
   alternates: {
-    canonical: 'https://www.jetourhn.com'
+    canonical: 'https://www.example.com',
   },
   icons: {
     icon: [
