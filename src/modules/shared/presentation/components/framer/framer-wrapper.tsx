@@ -1,22 +1,22 @@
-'use client';
+// 'use client';
 
-import React from 'react';
-import { HTMLMotionProps, motion } from 'framer-motion';
+// import React, { JSX } from 'react';
+// import { HTMLMotionProps, motion } from 'framer-motion';
 
-export type TagNameType = keyof JSX.IntrinsicElements;
+// export type TagNameType = any;
 
-export type MotionComponentProps<TagName extends TagNameType> = HTMLMotionProps<TagName>;
+// export type MotionComponentProps<TagName extends TagNameType> = any;
 
-export interface FramerProps<TagName extends keyof JSX.IntrinsicElements> {
-  as: TagName;
-  children?: React.ReactNode;
-  props?: MotionComponentProps<TagName>;
-}
+// export interface FramerProps<TagName extends TagNameType> {
+//   as: TagName;
+//   children?: React.ReactNode;
+//   props?: MotionComponentProps<TagName>;
+// }
 
-function Framer<TagName extends keyof JSX.IntrinsicElements>({ as, children, ...props }: FramerProps<TagName>) {
-  const MotionComponent = motion[as as keyof typeof motion];
+// function Framer<TagName extends TagNameType>({ as, children, ...props }: FramerProps<TagName>) {
+//   const MotionComponent = motion[as as keyof typeof motion];
 
-  return <MotionComponent {...props}>{children}</MotionComponent>;
-}
+//   return <MotionComponent {...props}>{children}</MotionComponent>;
+// }
 
-export default Framer;
+// export default Framer;
